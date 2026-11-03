@@ -1,0 +1,121 @@
+import { PronunciationDrill } from '../types';
+
+export const PRONUNCIATION_DRILLS: PronunciationDrill[] = [
+  {
+    id: 'drill-ich-laut',
+    title: 'The Soft "Ich-Laut" [ç]',
+    targetSound: 'ch (after e, i, ä, ö, ü, eu)',
+    soundDescription: 'Whisper "hue" in human. Keep tongue pressed lightly behind lower front teeth with sides touching top molars.',
+    level: 'A1',
+    category: 'ch-sound',
+    phraseDe: 'Ich möchte nicht durch die Küche schleichen.',
+    phraseEn: 'I do not want to sneak through the kitchen.',
+    phoneticHint: '[ɪç ˈmœçtə nɪçt dʊʁç diː ˈkʏçə ˈʃlaɪçn̩]',
+    englishSpeakerTrap: 'Do NOT say "Ik" or "Ish"! Arch the middle of your tongue toward the hard palate and hiss gently.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'drill-ach-laut',
+    title: 'The Guttural "Ach-Laut" [x]',
+    targetSound: 'ch (after a, o, u, au)',
+    soundDescription: 'A friction sound in the back of your throat, like clearing your throat gently.',
+    level: 'A1',
+    category: 'ch-sound',
+    phraseDe: 'Auch nach acht Wochen kocht der Koch noch Kuchen.',
+    phraseEn: 'Even after eight weeks, the cook still bakes cake.',
+    phoneticHint: '[aʊ̯x naːx axt ˈvɔxn̩ kɔxt deːɐ̯ kɔx nɔx ˈkuːxn̩]',
+    englishSpeakerTrap: 'English speakers often substitute a "k" sound. Keep air moving constantly through the throat.',
+    difficulty: 'easy'
+  },
+  {
+    id: 'drill-umlaut-ue',
+    title: 'The Elusive Ü-Sound [y:]',
+    targetSound: 'ü / ue',
+    soundDescription: 'Make an "ee" sound (like in "see"), then round your lips tightly like you are going to whistle without moving your tongue!',
+    level: 'A2',
+    category: 'umlauts',
+    phraseDe: 'Früh am Morgen üben fünf müde Schüler übermütig.',
+    phraseEn: 'Early in the morning, five tired students practice high-spiritedly.',
+    phoneticHint: '[fʁyː am ˈmɔʁɡn̩ ˈyːbn̩ fʏnf ˈmyːdə ˈʃyːlɐ ˈyːbɐˌmyːtɪç]',
+    englishSpeakerTrap: 'Never pronounce it as English "oo" (you). Tongue MUST stay in the "ee" position.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'drill-umlaut-oe',
+    title: 'The Deep Ö-Sound [ø:]',
+    targetSound: 'ö / oe',
+    soundDescription: 'Say "ay" (as in "say"), hold that tongue position, and round your lips into an "o" shape.',
+    level: 'A2',
+    category: 'umlauts',
+    phraseDe: 'Schöne Vögel können zwölf süße Töne hören.',
+    phraseEn: 'Beautiful birds can hear twelve sweet tones.',
+    phoneticHint: '[ˈʃøːnə ˈføːɡl̩ ˈkœnən tsvœlf ˈzyːsə ˈtøːnə ˈhøːʁən]',
+    englishSpeakerTrap: 'Do not pronounce it like "oh" or "er". The rounded lips create the unmistakable German vowel.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'drill-consonant-w-v-z',
+    title: 'The W-V-Z Triple Trap',
+    targetSound: 'W=[v], V=[f], Z=[ts]',
+    soundDescription: 'In German: W is pronounced like English V, V is pronounced like English F, and Z is always [ts] like in "cats"!',
+    level: 'A1',
+    category: 'consonants',
+    phraseDe: 'Zwei weiße Vögel fliegen zwischen zwei Zweigen.',
+    phraseEn: 'Two white birds fly between two branches.',
+    phoneticHint: '[tsvaɪ̯ ˈvaɪ̯sə ˈføːɡl̩ ˈfliːɡn̩ ˈtsvɪʃn̩ tsvaɪ̯ ˈtsvaɪ̯ɡn̩]',
+    englishSpeakerTrap: '"Vogel" starts with an F sound ("Fogel")! "Zwei" starts with "Ts" ("Tsvye")! "Wasser" starts with "V"!',
+    difficulty: 'hard'
+  },
+  {
+    id: 'drill-glottal-stop',
+    title: 'The Glottal Stop (Der Knacklaut)',
+    targetSound: 'ʔ (vocal cord pause before vowels)',
+    soundDescription: 'The tiny catch in your throat in "uh-oh". German speakers insert this before every word starting with a vowel and inside compounds.',
+    level: 'B1',
+    category: 'vowels',
+    phraseDe: 'Ich erinnere mich an alle interessanten Aufgaben.',
+    phraseEn: 'I remember all interesting tasks.',
+    phoneticHint: '[ʔɪç ʔɛɐ̯ˈʔɪnəʁə mɪç ʔan ˈʔalə ʔɪntəʁɛˈsantn̩ ˈʔaʊ̯fˌɡaːbn̩]',
+    englishSpeakerTrap: 'English speakers naturally blend words together ("I-remember-all"). German sounds crisp and authoritative because vowels have a micro-stop.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'drill-tongue-twister-ziegen',
+    title: 'Zungenbrecher: Zehn zahme Ziegen',
+    targetSound: 'Sharp German [ts] consonant drill',
+    soundDescription: 'The ultimate workout for mastering the German Z [ts] sound at high speed.',
+    level: 'B2',
+    category: 'tongue-twister',
+    phraseDe: 'Zehn zahme Ziegen zogen zehn Zentner Zucker zum Zwickauer Zoo.',
+    phraseEn: 'Ten tame goats pulled ten hundredweights of sugar to the Zwickau zoo.',
+    phoneticHint: '[tseːn ˈtsaːmə ˈtsiːɡn̩ ˈtsoːɡn̩ tseːn ˈtsɛntnɐ ˈtsʊkɐ tsʊm ˈtsvɪkaʊ̯ɐ tsoː]',
+    englishSpeakerTrap: 'Never let the Z slip into a buzz "zz". It must crack cleanly like [ts] each time.',
+    difficulty: 'hard'
+  },
+  {
+    id: 'drill-tongue-twister-fische',
+    title: 'Zungenbrecher: Fischers Fritze',
+    targetSound: 'Sch [ʃ] vs F [f] articulation speed',
+    soundDescription: 'Germany’s most iconic tongue twister practiced by actors and radio anchors.',
+    level: 'B2',
+    category: 'tongue-twister',
+    phraseDe: 'Fischers Fritze fischt frische Fische, frische Fische fischt Fischers Fritze.',
+    phraseEn: 'Fisher’s Fritz fishes fresh fish, fresh fish fishes Fisher’s Fritz.',
+    phoneticHint: '[ˈfɪʃɐs ˈfʁɪtsə fɪʃt ˈfʁɪʃə ˈfɪʃə ˈfʁɪʃə ˈfɪʃə fɪʃt ˈfɪʃɐs ˈfʁɪtsə]',
+    englishSpeakerTrap: 'Distinguishing the consonant cluster "rsch" and "fr" cleanly without stumbling.',
+    difficulty: 'hard'
+  },
+  {
+    id: 'drill-c1-compound-flow',
+    title: 'C1 Fluent Compound Flow',
+    targetSound: 'Multi-syllable German compound cadence',
+    soundDescription: 'Maintain natural rhythm and pitch stress on the first root element of heavy compound nouns.',
+    level: 'C1',
+    category: 'consonants',
+    phraseDe: 'Die Zukunftsfähigkeit erfordert diplomatisches Fingerspitzengefühl und Weitsicht.',
+    phraseEn: 'Future viability requires diplomatic tact and far-sighted vision.',
+    phoneticHint: '[diː ˈtsuːkʊnftsˌfɛːɪçkaɪ̯t ɛɐ̯ˈfɔʁdɐt diploˈmaːtɪʃəs ˈfɪŋɐˌʃpɪtsn̩ɡəˌfyːl ʊnt ˈvaɪ̯tˌzɪçt]',
+    englishSpeakerTrap: 'Stress the PRIMARY element: ZU-kunftsfähigkeit, FINGER-spitzengefühl.',
+    difficulty: 'hard'
+  }
+];

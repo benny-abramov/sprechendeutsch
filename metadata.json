@@ -1,0 +1,10 @@
+{
+  "name": "SprechenDeutsch - German Conversational Fluency",
+  "description": "Interactive daily conversational scenarios, real-time German speech recognition, CEFR A1-C1 vocabulary roadmap, and English-speaker pronunciation coach.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
